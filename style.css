@@ -31,7 +31,7 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color: white;
+    background-color: grey;
 }
 .menu ul{
     display: flex;
@@ -41,7 +41,16 @@ header{
 
 main{
     flex-grow: 1;
-    background-color: plum;
+    display: flex;
+}
+
+.conteudo{
+    width: 50%;
+    background-color: tomato;
+}
+.destaque{
+    width: 50%;
+    background-color: lightgray;
 }
 
 footer{
