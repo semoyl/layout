@@ -20,6 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-color: #b8c2d6;
 }
 
 header{
@@ -29,9 +30,11 @@ header{
     align-items: center;
 }
 .logo{
-    height: 80px;
-    width: 80px;
-    background-color: grey;
+    height: 100px;
+    width: 100px;
+    background-color: #b8c2d6;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/08/Devil-may-cry.png);
+    background-size: 100px 100px;
 }
 .menu ul{
     display: flex;
@@ -53,6 +56,7 @@ main{
 
 .conteudo h1{
     font-size: 108px;
+    color: #e50a08;
 }
 
 .conteudo p{
@@ -63,7 +67,7 @@ main{
 .conteudo button{
     height: 80px;
     width: 300px;
-    background-color: black;
+    background-color: #2a96a3;
     color: white;
     font-size: 32px;
 }
@@ -75,15 +79,32 @@ main{
 }
 
 .conteudo .social div{
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     background-color: lightgray;
+}
+
+.conteudo .social .um{
+    background-image: url(./img/06a46ef3cf9aef905dd9f6ed7cd27b90.jpg);
+    background-size: 120px 120px;
+}
+
+.conteudo .social .dois{
+    background-image: url(./img/bc138bfa0c06fed49cdd7abbfa24d6ed466f34e4r1-380-675_hq.gif);
+    background-size: 120px 120px;
+}
+
+.conteudo .social .tres{
+    background-image: url(./img/b8a3fa839b273f535b7c62efca5bd96b77830986r1-380-675_hq.gif);
+    background-size: 120px 120px;
 }
 
 .destaque{
     width: 50%;
     background-color: lightgray;
+    background-image: url(https://img.elo7.com.br/product/685x685/253421C/big-poster-gamer-devil-may-cry-5-lo002-tamanho-90x60-cm-geek.jpg);
+    background-size: 900px 800px;
 }
 
 footer{
@@ -91,5 +112,5 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: lightgray;
+    color: #e50a08;
 }
