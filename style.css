@@ -102,9 +102,10 @@ main{
 
 .destaque{
     width: 50%;
-    background-color: lightgray;
     background-image: url(https://img.elo7.com.br/product/685x685/253421C/big-poster-gamer-devil-may-cry-5-lo002-tamanho-90x60-cm-geek.jpg);
-    background-size: 900px 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer{
